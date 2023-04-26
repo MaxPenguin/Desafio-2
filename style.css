@@ -1,0 +1,77 @@
+* {
+    background-color: black;
+}
+
+@font-face {
+
+    font-family: "Kalam";
+
+    src: url("Kalam/Kalam-Bold.ttf") format("truetype");
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-family: "Kalam";
+}
+
+.linea {
+    border: 0;
+    border-top: 5px solid rgb(255, 255, 255);
+    height: 10px;
+    width: 15%;
+
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+}
+
+.yo {
+    width: 20%;
+    border-radius: 30%;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    border: 0;
+    border-top: 5px solid blanchedalmond;
+    height: 10px;
+    width: 25%;
+    margin-bottom: 150px;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.stock {
+    width: 30%;
+    margin: 0.2%;
+}
+
+footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        margin-bottom: 50px;
+}
+
+.link {
+    color: white;
+    font-size: 50px;
+}
